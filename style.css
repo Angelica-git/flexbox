@@ -1,0 +1,35 @@
+.container {
+  margin: 20px;
+  border: 1px solid #000;
+  width: 30%;
+  height: 300px;
+  display: flex; /* or inline-flex */
+  flex-direction: row; /*row-reverse | column | column-reverse;*/
+  flex-wrap: wrap; /*| nowrap | wrap-reverse; Wrap då får de behålla sin width o hamna på nya rader om det behövs */ 
+  /*flex-flow: <‘flex-direction’> || <‘flex-wrap’> båda i samma*/ 
+  justify-content: center; /* flex-start | flex-end | center | space-between | space-around |
+  space-evenly | start | end | left | right ... + safe | unsafe;*/
+  align-items: center;
+  align-content: stretch;
+}
+
+section {
+	height: 100px;
+	width: 100px;
+}
+
+.box1 {
+	background-color: pink;
+}
+
+.box2 {
+	background-color: lightblue;
+}
+
+.box3 {
+	background-color: yellow;
+}
+
+.box4 {
+	background-color: lightgreen;
+}
