@@ -4,6 +4,9 @@
   width: 30%;
   height: 300px;
   display: flex; /* or inline-flex */
+}
+
+.flex-container {
   flex-direction: row; /*row-reverse | column | column-reverse;*/
   flex-wrap: wrap; /*| nowrap | wrap-reverse; Wrap då får de behålla sin width o hamna på nya rader om det behövs */ 
   /*flex-flow: <‘flex-direction’> || <‘flex-wrap’> båda i samma*/ 
@@ -32,4 +35,22 @@ section {
 
 .box4 {
 	background-color: lightgreen;
+}
+
+.flex-items {
+}
+
+.box5 {
+	background-color: pink;
+	order: 2; 
+	flex-grow: 20;
+	flex-basis: 100px;
+	flex-shrink: 5;
+}
+
+.box6 {
+	background-color: lightblue;
+	order: 1; /* Det lägsta nummret kommer först*/
+	flex-basis: 50px;
+	flex-shrink: 1px
 }
